@@ -1,0 +1,7 @@
+1. Given an array of floating point numbers, find the average value of its minimum and maximum. O(n)
+
+2. Given an array of integers, will the product of all elements in an array be a negative or a non-negative number. O(n)
+
+3. Find the most common name in a list of names (tip: use a sorting algorithm) O(n^2) (mandatory usage of 2 sorting algorithms we did in class)
+
+4. Elon Musk really likes the number 8. Help him find the first occurence of number 8 in a sorted array. O(logn)
