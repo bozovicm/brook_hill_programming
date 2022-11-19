@@ -1,0 +1,19 @@
+1. A math competition was held in Brook Hill Secondary. All the students were solving
+the same problem set. Teachers checked their work but they weren't careful so all of their points are mixed up and they
+need your help to print a sorted list. Help them! List should be descending!
+
+2. For statistics' sake we need to find average number of points on this competition. Print that as well!
+
+3. We want to check if a certain number of points was acquired by a certain student. Check that - but be careful - linear complexity is reeeeallllyyy bad
+because Brook Hill has a lot of students.
+
+
+* Extra
+S(0) = 0 array[0] = 0;
+S(1) = 0 array[1] = 1;
+
+for every next member: a[i] = sum_of_digits(a[i-1]) + sum_of_digits(a[i-2])
+
+Given a number n find a[n]
+
+{2, 3, 5, 8, 13, 12, 7, 10, 8, 9, 17, 17,...}
